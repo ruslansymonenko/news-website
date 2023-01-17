@@ -1,3 +1,5 @@
 .main-page{
+  /* max-height: calc(100vh - (332px + 56px)); */
   height: calc(100vh - (332px + 56px));
+  padding: 40px 0;
 }

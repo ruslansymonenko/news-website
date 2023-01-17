@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.news{
+  max-height: calc(100vh - (382px + 56px));
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.news{
+  overflow-y: scroll;
+}
+
+.footer{
+  display: block;
+  z-index: 10;
+}
